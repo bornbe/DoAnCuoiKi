@@ -69,6 +69,7 @@
             this.btntrangchu.TabIndex = 1;
             this.btntrangchu.Text = "Trang chủ";
             this.btntrangchu.UseVisualStyleBackColor = false;
+            this.btntrangchu.Click += new System.EventHandler(this.btntrangchu_Click);
             // 
             // Form7
             // 

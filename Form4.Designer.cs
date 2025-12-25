@@ -2,15 +2,10 @@
 {
     partial class Form4
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
+
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -79,7 +74,7 @@
             this.gbAddIteam.Size = new System.Drawing.Size(485, 277);
             this.gbAddIteam.TabIndex = 0;
             this.gbAddIteam.TabStop = false;
-            this.gbAddIteam.Text = "xóa";
+            this.gbAddIteam.Text = "Thêm Hàng";
             // 
             // txtSoLuong
             // 

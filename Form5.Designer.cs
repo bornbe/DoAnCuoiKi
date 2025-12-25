@@ -41,6 +41,7 @@
             this.dtpChonNgay = new System.Windows.Forms.DateTimePicker();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IDDon = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IdIteam2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NameIteam2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SoLuong2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -55,7 +56,7 @@
             this.xemToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(857, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(857, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -69,7 +70,7 @@
             this.thoátToolStripMenuItem});
             this.xemToolStripMenuItem.Image = global::QuanLyBanHang.Properties.Resources.images__2_;
             this.xemToolStripMenuItem.Name = "xemToolStripMenuItem";
-            this.xemToolStripMenuItem.Size = new System.Drawing.Size(73, 26);
+            this.xemToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
             this.xemToolStripMenuItem.Text = "Xem";
             // 
             // TSMIform5
@@ -139,6 +140,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Date,
+            this.IDDon,
             this.IdIteam2,
             this.NameIteam2,
             this.SoLuong2});
@@ -155,6 +157,13 @@
             this.Date.MinimumWidth = 6;
             this.Date.Name = "Date";
             this.Date.Width = 125;
+            // 
+            // IDDon
+            // 
+            this.IDDon.HeaderText = "Mã đơn";
+            this.IDDon.MinimumWidth = 6;
+            this.IDDon.Name = "IDDon";
+            this.IDDon.Width = 125;
             // 
             // IdIteam2
             // 
@@ -215,6 +224,7 @@
         private System.Windows.Forms.DateTimePicker dtpChonNgay;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Date;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IDDon;
         private System.Windows.Forms.DataGridViewTextBoxColumn IdIteam2;
         private System.Windows.Forms.DataGridViewTextBoxColumn NameIteam2;
         private System.Windows.Forms.DataGridViewTextBoxColumn SoLuong2;
